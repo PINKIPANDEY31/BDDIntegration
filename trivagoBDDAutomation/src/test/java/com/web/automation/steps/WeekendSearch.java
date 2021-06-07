@@ -70,20 +70,6 @@ public class WeekendSearch extends DriverInstance {
 
 	}
 	
-	@Then("^User clicks on View Deal button$")
-	public void user_clicks_on_View_Deal_buttonc() throws Throwable {
-		search.clickOnViewDealButton();
-		Assert.assertTrue(driver.getTitle().contains("trivago Weekend"));
-		search.viewDealGalleryPopup();
-
-	}
 	
-	@Then("^User clicks on View Deal button$")
-	public void user_clicks_on_View_Deal_buttontest() throws Throwable {
-		search.clickOnViewDealButton();
-		Assert.assertTrue(driver.getTitle().contains("trivago Weekend"));
-		search.viewDealGalleryPopup();
-
-	}
 
 }
